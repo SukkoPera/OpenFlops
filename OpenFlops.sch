@@ -180,9 +180,9 @@ Wire Wire Line
 Text Label 10575 915  2    50   ~ 0
 ja
 Text Label 10575 1015 2    50   ~ 0
-jb
-Text Label 10575 1115 2    50   ~ 0
 jc
+Text Label 10575 1115 2    50   ~ 0
+jb
 Wire Wire Line
 	9840 1415 9715 1415
 Text Label 9015 1415 0    50   ~ 0
@@ -1210,9 +1210,9 @@ J5
 Text Notes 10610 945  0    50   ~ 0
 JA
 Text Notes 10610 1045 0    50   ~ 0
-JB
-Text Notes 10610 1145 0    50   ~ 0
 JC
+Text Notes 10610 1145 0    50   ~ 0
+JB
 Text Notes 10610 1245 0    50   ~ 0
 S0
 Text Notes 10610 1345 0    50   ~ 0
