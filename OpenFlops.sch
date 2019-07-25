@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenFlops"
-Date "2019-07-24"
+Date "2019-07-25"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Based on schematics by H.M."
@@ -517,11 +517,6 @@ Connection ~ 8580 3805
 Wire Wire Line
 	8580 3805 8700 3805
 Wire Wire Line
-	8465 2505 8465 3405
-Connection ~ 8465 3405
-Wire Wire Line
-	8465 3405 9840 3405
-Wire Wire Line
 	8345 2805 8345 3105
 Connection ~ 8345 3105
 Wire Wire Line
@@ -644,8 +639,6 @@ Text Label 7505 3505 0    50   ~ 0
 ~sel1
 Text Label 7505 3405 0    50   ~ 0
 ~sel0
-Text Label 7505 3305 0    50   ~ 0
-~index
 Text Label 7505 3205 0    50   ~ 0
 ~sel3
 Text Label 7505 3105 0    50   ~ 0
@@ -676,10 +669,6 @@ Wire Wire Line
 	7505 3605 9840 3605
 Wire Wire Line
 	7505 3505 9840 3505
-Wire Wire Line
-	7505 3405 8465 3405
-Wire Wire Line
-	7505 3305 9840 3305
 Wire Wire Line
 	7505 3205 9840 3205
 Wire Wire Line
@@ -2281,4 +2270,15 @@ F 3 "" H 6800 1345 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6800 1280 6800 1345
+Text Label 7505 3305 0    50   ~ 0
+~index
+Wire Wire Line
+	8465 3305 9840 3305
+Connection ~ 8465 3305
+Wire Wire Line
+	7505 3305 8465 3305
+Wire Wire Line
+	8465 2505 8465 3305
+Wire Wire Line
+	7505 3405 9840 3405
 $EndSCHEMATC
