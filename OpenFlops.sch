@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenFlops"
-Date "2019-07-25"
+Date "2019-07-27"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Based on schematics by H.M."
@@ -788,80 +788,6 @@ Wire Wire Line
 Connection ~ 2755 1010
 Wire Wire Line
 	2755 1010 2855 1010
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even P4
-U 1 1 5D4FBC5B
-P 10040 5780
-F 0 "P4" H 10090 6197 50  0000 C CNN
-F 1 "PROG_PORT" H 10090 6106 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 10040 5780 50  0001 C CNN
-F 3 "~" H 10040 5780 50  0001 C CNN
-	1    10040 5780
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10340 5880
-NoConn ~ 10340 5980
-Wire Wire Line
-	10340 5580 10445 5580
-Wire Wire Line
-	10445 5580 10445 6060
-$Comp
-L power:GND #PWR0110
-U 1 1 5D516B3D
-P 10445 6060
-F 0 "#PWR0110" H 10445 5810 50  0001 C CNN
-F 1 "GND" H 10450 5887 50  0000 C CNN
-F 2 "" H 10445 6060 50  0001 C CNN
-F 3 "" H 10445 6060 50  0001 C CNN
-	1    10445 6060
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0111
-U 1 1 5D5171A7
-P 10690 5495
-F 0 "#PWR0111" H 10690 5345 50  0001 C CNN
-F 1 "+5V" H 10705 5668 50  0000 C CNN
-F 2 "" H 10690 5495 50  0001 C CNN
-F 3 "" H 10690 5495 50  0001 C CNN
-	1    10690 5495
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10340 5680 10690 5680
-Wire Wire Line
-	10690 5680 10690 5495
-Wire Wire Line
-	9840 5580 9565 5580
-Wire Wire Line
-	9840 5680 9565 5680
-Wire Wire Line
-	9840 5780 9565 5780
-Wire Wire Line
-	9840 5980 9565 5980
-Text Label 9565 5580 0    50   ~ 0
-nrst
-Text Label 9565 5680 0    50   ~ 0
-rx
-Text Label 9565 5780 0    50   ~ 0
-tx
-Text Label 9565 5980 0    50   ~ 0
-boot0
-$Comp
-L power:+3.3V #PWR0112
-U 1 1 5D529BA2
-P 9460 5495
-F 0 "#PWR0112" H 9460 5345 50  0001 C CNN
-F 1 "+3.3V" H 9475 5668 50  0000 C CNN
-F 2 "" H 9460 5495 50  0001 C CNN
-F 3 "" H 9460 5495 50  0001 C CNN
-	1    9460 5495
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9460 5495 9460 5880
-Wire Wire Line
-	9460 5880 9840 5880
 Wire Wire Line
 	1855 1500 1580 1500
 Text Label 1580 1500 0    50   ~ 0
@@ -1001,63 +927,6 @@ Wire Wire Line
 	8935 4005 9840 4005
 Wire Wire Line
 	9050 4105 9840 4105
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J7
-U 1 1 5D6AA148
-P 8210 5780
-F 0 "J7" H 8260 6097 50  0000 C CNN
-F 1 "DISPLAY_PORT" H 8260 6006 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 8210 5780 50  0001 C CNN
-F 3 "~" H 8210 5780 50  0001 C CNN
-	1    8210 5780
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8010 5680 7695 5680
-Wire Wire Line
-	8010 5780 7695 5780
-Wire Wire Line
-	8825 5680 8510 5680
-Wire Wire Line
-	8825 5780 8510 5780
-Text Label 7695 5680 0    50   ~ 0
-j7_pin1
-Text Label 8825 5680 2    50   ~ 0
-j7_pin2
-$Comp
-L power:GND #PWR0116
-U 1 1 5D6C4D7E
-P 7605 5945
-F 0 "#PWR0116" H 7605 5695 50  0001 C CNN
-F 1 "GND" H 7610 5772 50  0000 C CNN
-F 2 "" H 7605 5945 50  0001 C CNN
-F 3 "" H 7605 5945 50  0001 C CNN
-	1    7605 5945
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7605 5880 7605 5945
-Wire Wire Line
-	7605 5880 8010 5880
-$Comp
-L power:+3.3V #PWR0117
-U 1 1 5D6D29A6
-P 8955 5595
-F 0 "#PWR0117" H 8955 5445 50  0001 C CNN
-F 1 "+3.3V" H 8970 5768 50  0000 C CNN
-F 2 "" H 8955 5595 50  0001 C CNN
-F 3 "" H 8955 5595 50  0001 C CNN
-	1    8955 5595
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8955 5595 8955 5880
-Wire Wire Line
-	8510 5880 8955 5880
-Text Label 7695 5780 0    50   ~ 0
-disp_clk
-Text Label 8825 5780 2    50   ~ 0
-disp_dio
 Text Label 3660 4000 2    50   ~ 0
 disp_dio
 Text Label 3660 4100 2    50   ~ 0
@@ -1180,10 +1049,6 @@ Wire Wire Line
 	3255 2700 3820 2700
 Text Label 3820 2700 2    50   ~ 0
 swclk
-Text Label 10690 5780 2    50   ~ 0
-swclk
-Wire Wire Line
-	10690 5780 10340 5780
 Wire Wire Line
 	3255 2200 3820 2200
 Text Label 3820 2200 2    50   ~ 0
@@ -1993,12 +1858,6 @@ F 3 "~" H 4190 3600 50  0001 C CNN
 	1    4140 3600
 	0    -1   1    0   
 $EndComp
-Text Notes 9280 5605 0    50   ~ 0
-RST
-Text Notes 9280 5705 0    50   ~ 0
-J4
-Text Notes 9280 6005 0    50   ~ 0
-J3
 Connection ~ 2555 4875
 Wire Wire Line
 	2555 4875 2555 4980
@@ -2127,8 +1986,6 @@ $EndComp
 Text Notes 7265 5105 2    50   ~ 0
 OPTIONAL FLASH\nFOR FAT12 IMAGE\nCREATION SUPPORT
 Wire Notes Line
-	7340 5165 4750 5165
-Wire Notes Line
 	4750 5165 4750 3580
 Wire Notes Line
 	4750 3580 6090 3580
@@ -2136,8 +1993,6 @@ Wire Notes Line
 	6090 3580 6090 3830
 Wire Notes Line
 	6090 3830 7340 3830
-Wire Notes Line
-	7340 3830 7340 5170
 Wire Wire Line
 	4140 3225 4140 3300
 Wire Wire Line
@@ -2282,4 +2137,238 @@ Wire Wire Line
 	8465 2505 8465 3305
 Wire Wire Line
 	7505 3405 9840 3405
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D3EC7E2
+P 7510 5955
+F 0 "H1" H 7610 5958 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7610 5913 50  0001 L CNN
+F 2 "OpenFlops:MountingHole_M3_Pad" H 7510 5955 50  0001 C CNN
+F 3 "~" H 7510 5955 50  0001 C CNN
+	1    7510 5955
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7340 3830 7340 5170
+Wire Notes Line
+	7340 5165 4750 5165
+Text Notes 9280 5835 0    50   ~ 0
+J3
+Text Notes 9280 5535 0    50   ~ 0
+J4
+Text Notes 9280 5435 0    50   ~ 0
+RST
+Wire Wire Line
+	10690 5610 10340 5610
+Text Label 10690 5610 2    50   ~ 0
+swclk
+Text Label 8815 5255 2    50   ~ 0
+disp_dio
+Text Label 7685 5255 0    50   ~ 0
+disp_clk
+Wire Wire Line
+	8500 5355 8945 5355
+Wire Wire Line
+	8945 5070 8945 5355
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 5D6D29A6
+P 8945 5070
+F 0 "#PWR0117" H 8945 4920 50  0001 C CNN
+F 1 "+3.3V" H 8960 5243 50  0000 C CNN
+F 2 "" H 8945 5070 50  0001 C CNN
+F 3 "" H 8945 5070 50  0001 C CNN
+	1    8945 5070
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7595 5355 8000 5355
+Wire Wire Line
+	7595 5355 7595 5420
+$Comp
+L power:GND #PWR0116
+U 1 1 5D6C4D7E
+P 7595 5420
+F 0 "#PWR0116" H 7595 5170 50  0001 C CNN
+F 1 "GND" H 7600 5247 50  0000 C CNN
+F 2 "" H 7595 5420 50  0001 C CNN
+F 3 "" H 7595 5420 50  0001 C CNN
+	1    7595 5420
+	1    0    0    -1  
+$EndComp
+Text Label 8815 5155 2    50   ~ 0
+j7_pin2
+Text Label 7685 5155 0    50   ~ 0
+j7_pin1
+Wire Wire Line
+	8815 5255 8500 5255
+Wire Wire Line
+	8815 5155 8500 5155
+Wire Wire Line
+	8000 5255 7685 5255
+Wire Wire Line
+	8000 5155 7685 5155
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J7
+U 1 1 5D6AA148
+P 8200 5255
+F 0 "J7" H 8250 5572 50  0000 C CNN
+F 1 "DISPLAY_PORT" H 8250 5481 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 8200 5255 50  0001 C CNN
+F 3 "~" H 8200 5255 50  0001 C CNN
+	1    8200 5255
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9460 5710 9840 5710
+Wire Wire Line
+	9460 5325 9460 5710
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 5D529BA2
+P 9460 5325
+F 0 "#PWR0112" H 9460 5175 50  0001 C CNN
+F 1 "+3.3V" H 9475 5498 50  0000 C CNN
+F 2 "" H 9460 5325 50  0001 C CNN
+F 3 "" H 9460 5325 50  0001 C CNN
+	1    9460 5325
+	1    0    0    -1  
+$EndComp
+Text Label 9565 5810 0    50   ~ 0
+boot0
+Text Label 9565 5610 0    50   ~ 0
+tx
+Text Label 9565 5510 0    50   ~ 0
+rx
+Text Label 9565 5410 0    50   ~ 0
+nrst
+Wire Wire Line
+	9840 5810 9565 5810
+Wire Wire Line
+	9840 5610 9565 5610
+Wire Wire Line
+	9840 5510 9565 5510
+Wire Wire Line
+	9840 5410 9565 5410
+Wire Wire Line
+	10690 5510 10690 5325
+Wire Wire Line
+	10340 5510 10690 5510
+$Comp
+L power:+5V #PWR0111
+U 1 1 5D5171A7
+P 10690 5325
+F 0 "#PWR0111" H 10690 5175 50  0001 C CNN
+F 1 "+5V" H 10705 5498 50  0000 C CNN
+F 2 "" H 10690 5325 50  0001 C CNN
+F 3 "" H 10690 5325 50  0001 C CNN
+	1    10690 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5D516B3D
+P 10445 5890
+F 0 "#PWR0110" H 10445 5640 50  0001 C CNN
+F 1 "GND" H 10450 5717 50  0000 C CNN
+F 2 "" H 10445 5890 50  0001 C CNN
+F 3 "" H 10445 5890 50  0001 C CNN
+	1    10445 5890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10445 5410 10445 5890
+Wire Wire Line
+	10340 5410 10445 5410
+NoConn ~ 10340 5810
+NoConn ~ 10340 5710
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even P4
+U 1 1 5D4FBC5B
+P 10040 5610
+F 0 "P4" H 10090 6027 50  0000 C CNN
+F 1 "PROG_PORT" H 10090 5936 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 10040 5610 50  0001 C CNN
+F 3 "~" H 10040 5610 50  0001 C CNN
+	1    10040 5610
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D4462D4
+P 7870 5955
+F 0 "H2" H 7970 5958 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7970 5913 50  0001 L CNN
+F 2 "OpenFlops:MountingHole_M3_Pad" H 7870 5955 50  0001 C CNN
+F 3 "~" H 7870 5955 50  0001 C CNN
+	1    7870 5955
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D446F95
+P 8230 5955
+F 0 "H3" H 8330 5958 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8330 5913 50  0001 L CNN
+F 2 "OpenFlops:MountingHole_M3_Pad" H 8230 5955 50  0001 C CNN
+F 3 "~" H 8230 5955 50  0001 C CNN
+	1    8230 5955
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D4BD113
+P 8590 5955
+F 0 "H4" H 8690 5958 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8690 5913 50  0001 L CNN
+F 2 "OpenFlops:MountingHole_M3_Pad" H 8590 5955 50  0001 C CNN
+F 3 "~" H 8590 5955 50  0001 C CNN
+	1    8590 5955
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5D4BD11D
+P 8950 5955
+F 0 "H5" H 9050 5958 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9050 5913 50  0001 L CNN
+F 2 "OpenFlops:MountingHole_M3_Pad" H 8950 5955 50  0001 C CNN
+F 3 "~" H 8950 5955 50  0001 C CNN
+	1    8950 5955
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7510 6055 7510 6175
+Wire Wire Line
+	7510 6175 7870 6175
+Wire Wire Line
+	8950 6175 8950 6055
+Wire Wire Line
+	8590 6055 8590 6175
+Connection ~ 8590 6175
+Wire Wire Line
+	8590 6175 8950 6175
+Wire Wire Line
+	7870 6055 7870 6175
+Connection ~ 7870 6175
+Wire Wire Line
+	7870 6175 8230 6175
+Wire Wire Line
+	8230 6175 8230 6240
+$Comp
+L power:GND #PWR01
+U 1 1 5D5868BA
+P 8230 6240
+F 0 "#PWR01" H 8230 5990 50  0001 C CNN
+F 1 "GND" H 8235 6067 50  0000 C CNN
+F 2 "" H 8230 6240 50  0001 C CNN
+F 3 "" H 8230 6240 50  0001 C CNN
+	1    8230 6240
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8230 6055 8230 6175
+Connection ~ 8230 6175
+Wire Wire Line
+	8230 6175 8590 6175
 $EndSCHEMATC
