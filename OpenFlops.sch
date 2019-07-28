@@ -2158,10 +2158,6 @@ Text Notes 9280 5535 0    50   ~ 0
 J4
 Text Notes 9280 5435 0    50   ~ 0
 RST
-Wire Wire Line
-	10690 5610 10340 5610
-Text Label 10690 5610 2    50   ~ 0
-swclk
 Text Label 8815 5255 2    50   ~ 0
 disp_dio
 Text Label 7685 5255 0    50   ~ 0
@@ -2214,7 +2210,7 @@ U 1 1 5D6AA148
 P 8200 5255
 F 0 "J7" H 8250 5572 50  0000 C CNN
 F 1 "DISPLAY_PORT" H 8250 5481 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 8200 5255 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8200 5255 50  0001 C CNN
 F 3 "~" H 8200 5255 50  0001 C CNN
 	1    8200 5255
 	1    0    0    -1  
@@ -2277,11 +2273,9 @@ F 3 "" H 10445 5890 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10445 5410 10445 5890
+	10445 5410 10445 5610
 Wire Wire Line
 	10340 5410 10445 5410
-NoConn ~ 10340 5810
-NoConn ~ 10340 5710
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even P4
 U 1 1 5D4FBC5B
@@ -2371,4 +2365,29 @@ Wire Wire Line
 Connection ~ 8230 6175
 Wire Wire Line
 	8230 6175 8590 6175
+Wire Wire Line
+	10340 5610 10445 5610
+Connection ~ 10445 5610
+Wire Wire Line
+	10445 5610 10445 5710
+Wire Wire Line
+	10340 5710 10445 5710
+Connection ~ 10445 5710
+Wire Wire Line
+	10445 5710 10445 5890
+$Comp
+L power:+3.3V #PWR0143
+U 1 1 5D5DDDC2
+P 10875 5325
+F 0 "#PWR0143" H 10875 5175 50  0001 C CNN
+F 1 "+3.3V" H 10890 5498 50  0000 C CNN
+F 2 "" H 10875 5325 50  0001 C CNN
+F 3 "" H 10875 5325 50  0001 C CNN
+	1    10875 5325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10875 5325 10875 5810
+Wire Wire Line
+	10875 5810 10340 5810
 $EndSCHEMATC
