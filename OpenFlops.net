@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/OpenFlops/OpenFlops.sch)
-    (date "dom 04 ago 2019 15:47:50 CEST")
+    (date "dom 04 ago 2019 17:59:49 CEST")
     (tool "Eeschema 5.1.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -198,7 +198,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5D786893))
     (comp (ref U1)
-      (value 74HC04)
+      (value 74HCT04)
       (footprint Package_SO:SOIC-14_3.9x8.7mm_P1.27mm)
       (datasheet https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf)
       (libsource (lib 74xx) (part 74HC04) (description "hex inverter"))
