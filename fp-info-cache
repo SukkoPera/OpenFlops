@@ -1,4 +1,4 @@
-18595918924069626
+18597483842932626
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49748,6 +49748,13 @@ net tie
 0
 4
 4
+OpenFlops
+Buzzer
+Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
+CONN DEV
+0
+4
+2
 OpenFlops
 MountingHole_M3_Pad
 Mounting Hole 3.2mm, M3
