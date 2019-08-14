@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenFlops"
-Date "2019-08-04"
+Date "2019-08-14"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Based on schematics by H.M."
@@ -2304,7 +2304,7 @@ U 1 1 5D67D719
 P 7635 5350
 F 0 "P7" H 7553 4925 50  0000 C CNN
 F 1 "DISPLAY_PORT" H 7553 5016 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7635 5350 50  0001 C CNN
+F 2 "OpenFlops:PinHeader_1x04_P2.54mm_Vertical" H 7635 5350 50  0001 C CNN
 F 3 "~" H 7635 5350 50  0001 C CNN
 	1    7635 5350
 	-1   0    0    1   
@@ -2384,7 +2384,7 @@ U 1 1 5DAA60C4
 P 6100 4590
 F 0 "P6" H 6018 4165 50  0000 C CNN
 F 1 "ENCODER_PORT" H 6018 4256 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6100 4590 50  0001 C CNN
+F 2 "OpenFlops:PinHeader_1x05_P2.54mm_Vertical" H 6100 4590 50  0001 C CNN
 F 3 "~" H 6100 4590 50  0001 C CNN
 	1    6100 4590
 	-1   0    0    1   
@@ -2570,4 +2570,25 @@ Wire Wire Line
 Connection ~ 4905 4435
 Wire Wire Line
 	4905 4435 4905 4455
+$Comp
+L Device:C C10
+U 1 1 5D58F4BB
+P 6900 3425
+F 0 "C10" H 7015 3471 50  0000 L CNN
+F 1 "100n" H 7015 3380 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6938 3275 50  0001 C CNN
+F 3 "~" H 6900 3425 50  0001 C CNN
+	1    6900 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3115 6900 3275
+Wire Wire Line
+	6495 3115 6900 3115
+Wire Wire Line
+	6495 3735 6900 3735
+Wire Wire Line
+	6900 3735 6900 3575
+Connection ~ 6495 3115
+Connection ~ 6495 3735
 $EndSCHEMATC
