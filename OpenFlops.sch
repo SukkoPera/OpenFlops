@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenFlops"
-Date "2019-08-14"
+Date "2019-08-18"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Based on schematics by H.M."
@@ -952,36 +952,34 @@ Wire Wire Line
 $Comp
 L Device:R R1
 U 1 1 5D7861B9
-P 7480 1050
-F 0 "R1" V 7385 1050 50  0000 C CNN
-F 1 "22" V 7480 1050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7410 1050 50  0001 C CNN
-F 3 "~" H 7480 1050 50  0001 C CNN
-	1    7480 1050
+P 7345 1050
+F 0 "R1" V 7250 1050 50  0000 C CNN
+F 1 "22" V 7345 1050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7275 1050 50  0001 C CNN
+F 3 "~" H 7345 1050 50  0001 C CNN
+	1    7345 1050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 5D786893
-P 7480 1150
-F 0 "R2" V 7575 1150 50  0000 C CNN
-F 1 "22" V 7480 1150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7410 1150 50  0001 C CNN
-F 3 "~" H 7480 1150 50  0001 C CNN
-	1    7480 1150
+P 7345 1150
+F 0 "R2" V 7440 1150 50  0000 C CNN
+F 1 "22" V 7345 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7275 1150 50  0001 C CNN
+F 3 "~" H 7345 1150 50  0001 C CNN
+	1    7345 1150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7630 1050 7765 1050
+	7495 1050 7765 1050
 Wire Wire Line
-	7630 1150 7765 1150
+	7195 1050 7010 1050
 Wire Wire Line
-	7330 1050 7065 1050
-Wire Wire Line
-	7330 1150 7065 1150
-Text Label 7065 1050 0    50   ~ 0
+	7195 1150 7010 1150
+Text Label 7010 1050 0    50   ~ 0
 usb+
-Text Label 7065 1150 0    50   ~ 0
+Text Label 7010 1150 0    50   ~ 0
 usb-
 Wire Wire Line
 	3255 2400 3820 2400
@@ -1901,40 +1899,40 @@ Wire Wire Line
 $Comp
 L Device:CP1 C1
 U 1 1 5EE6C285
-P 6800 1130
-F 0 "C1" H 6685 1176 50  0000 R CNN
-F 1 "100u" H 6685 1085 50  0000 R CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 6800 1130 50  0001 C CNN
-F 3 "~" H 6800 1130 50  0001 C CNN
-	1    6800 1130
+P 4520 2195
+F 0 "C1" H 4405 2241 50  0000 R CNN
+F 1 "100u" H 4405 2150 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4520 2195 50  0001 C CNN
+F 3 "~" H 4520 2195 50  0001 C CNN
+	1    4520 2195
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0141
 U 1 1 5EE997A6
-P 6800 915
-F 0 "#PWR0141" H 6800 765 50  0001 C CNN
-F 1 "+5V" H 6815 1088 50  0000 C CNN
-F 2 "" H 6800 915 50  0001 C CNN
-F 3 "" H 6800 915 50  0001 C CNN
-	1    6800 915 
+P 4520 1980
+F 0 "#PWR0141" H 4520 1830 50  0001 C CNN
+F 1 "+5V" H 4535 2153 50  0000 C CNN
+F 2 "" H 4520 1980 50  0001 C CNN
+F 3 "" H 4520 1980 50  0001 C CNN
+	1    4520 1980
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 915  6800 980 
+	4520 1980 4520 2045
 $Comp
 L power:GND #PWR0142
 U 1 1 5EEC2A25
-P 6800 1345
-F 0 "#PWR0142" H 6800 1095 50  0001 C CNN
-F 1 "GND" H 6805 1172 50  0000 C CNN
-F 2 "" H 6800 1345 50  0001 C CNN
-F 3 "" H 6800 1345 50  0001 C CNN
-	1    6800 1345
+P 4520 2410
+F 0 "#PWR0142" H 4520 2160 50  0001 C CNN
+F 1 "GND" H 4525 2237 50  0000 C CNN
+F 2 "" H 4520 2410 50  0001 C CNN
+F 3 "" H 4520 2410 50  0001 C CNN
+	1    4520 2410
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 1280 6800 1345
+	4520 2345 4520 2410
 Text Label 7505 3305 0    50   ~ 0
 ~index
 Wire Wire Line
@@ -2533,23 +2531,21 @@ $EndComp
 Wire Wire Line
 	4905 4020 4905 4060
 Wire Wire Line
-	4720 4095 4720 4060
+	4650 4095 4650 4060
 Wire Wire Line
-	4720 4060 4905 4060
+	4650 4060 4905 4060
 Connection ~ 4905 4060
 Wire Wire Line
 	4905 4060 4905 4185
-Wire Wire Line
-	4720 4395 4720 4435
 $Comp
 L Device:D D2
 U 1 1 5E2F4A52
-P 4720 4245
-F 0 "D2" V 4674 4324 50  0000 L CNN
-F 1 "1N5819 (?)" V 4765 4324 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4720 4245 50  0001 C CNN
-F 3 "~" H 4720 4245 50  0001 C CNN
-	1    4720 4245
+P 4650 4245
+F 0 "D2" V 4604 4324 50  0000 L CNN
+F 1 "1N5819 (?)" V 4695 4324 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 4650 4245 50  0001 C CNN
+F 3 "~" H 4650 4245 50  0001 C CNN
+	1    4650 4245
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -2565,8 +2561,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4805 4655 50  000
 $EndComp
 Wire Wire Line
 	4905 4285 4905 4435
-Wire Wire Line
-	4720 4435 4905 4435
 Connection ~ 4905 4435
 Wire Wire Line
 	4905 4435 4905 4455
@@ -2591,4 +2585,86 @@ Wire Wire Line
 	6900 3735 6900 3575
 Connection ~ 6495 3115
 Connection ~ 6495 3735
+$Comp
+L Connector_Generic:Conn_01x04 P8
+U 1 1 5D653966
+P 6345 1035
+F 0 "P8" H 6263 1352 50  0000 C CNN
+F 1 "USB_HEADER" H 6263 1261 50  0000 C CNN
+F 2 "OpenFlops:PinHeader_1x04_P2.54mm_Vertical" H 6345 1035 50  0001 C CNN
+F 3 "~" H 6345 1035 50  0001 C CNN
+	1    6345 1035
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6545 1035 6810 1035
+Wire Wire Line
+	6545 1135 6810 1135
+Text Label 6810 1035 2    50   ~ 0
+usb-r
+Text Label 6810 1135 2    50   ~ 0
+usb+r
+$Comp
+L power:+5V #PWR0144
+U 1 1 5D74D3BF
+P 6810 870
+F 0 "#PWR0144" H 6810 720 50  0001 C CNN
+F 1 "+5V" H 6825 1043 50  0000 C CNN
+F 2 "" H 6810 870 50  0001 C CNN
+F 3 "" H 6810 870 50  0001 C CNN
+	1    6810 870 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6810 870  6810 935 
+Wire Wire Line
+	6810 935  6545 935 
+$Comp
+L power:GND #PWR0145
+U 1 1 5D780CD9
+P 6810 1270
+F 0 "#PWR0145" H 6810 1020 50  0001 C CNN
+F 1 "GND" H 6815 1097 50  0000 C CNN
+F 2 "" H 6810 1270 50  0001 C CNN
+F 3 "" H 6810 1270 50  0001 C CNN
+	1    6810 1270
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6545 1235 6810 1235
+Wire Wire Line
+	6810 1235 6810 1270
+$Comp
+L Connector_Generic:Conn_01x02 P9
+U 1 1 5D86073A
+P 4235 3670
+F 0 "P9" H 4153 3887 50  0000 C CNN
+F 1 "EXTERNAL_SPEAKER" H 4153 3796 50  0000 C CNN
+F 2 "OpenFlops:PinHeader_1x02_P2.54mm_Vertical" H 4235 3670 50  0001 C CNN
+F 3 "~" H 4235 3670 50  0001 C CNN
+	1    4235 3670
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4435 3670 4680 3670
+Wire Wire Line
+	4435 3770 4680 3770
+Wire Wire Line
+	4650 4435 4650 4395
+Wire Wire Line
+	4650 4435 4905 4435
+Text Label 4650 4435 0    50   ~ 0
+spk-
+Text Label 4680 3770 2    50   ~ 0
+spk-
+Text Label 4650 4060 0    50   ~ 0
+spk+
+Text Label 4680 3670 2    50   ~ 0
+spk+
+Text Label 7495 1050 0    50   ~ 0
+usb+r
+Text Label 7500 1150 0    50   ~ 0
+usb-r
+Wire Wire Line
+	7495 1150 7765 1150
 $EndSCHEMATC
