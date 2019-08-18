@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/OpenFlops/OpenFlops.sch)
-    (date "mer 14 ago 2019 11:41:38 CEST")
+    (date "dom 18 ago 2019 22:43:57 CEST")
     (tool "Eeschema 5.1.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -262,7 +262,7 @@
       (tstamp 5DBB1ACD))
     (comp (ref D1)
       (value "1N5819 (?)")
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint Diode_SMD:D_SOD-323_HandSoldering)
       (datasheet ~)
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
@@ -515,7 +515,7 @@
       (tstamp 5E2368C4))
     (comp (ref D2)
       (value "1N5819 (?)")
-      (footprint Diode_SMD:D_SOD-123)
+      (footprint Diode_SMD:D_SOD-323_HandSoldering)
       (datasheet ~)
       (libsource (lib Device) (part D) (description Diode))
       (sheetpath (names /) (tstamps /))
