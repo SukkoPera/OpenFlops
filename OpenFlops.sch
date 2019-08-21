@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenFlops"
-Date "2019-08-18"
+Date "2019-08-21"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Based on schematics by H.M."
@@ -2691,4 +2691,16 @@ Wire Wire Line
 Connection ~ 3965 785 
 Wire Wire Line
 	3965 785  4045 785 
+NoConn ~ 10820 6345
+$Comp
+L Connector_Generic:Conn_01x01 J99
+U 1 1 5E184803
+P 11020 6345
+F 0 "J99" H 10880 6465 50  0000 L CNN
+F 1 "OSHW_LOGO" H 10725 6240 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_Copper" H 11020 6345 50  0001 C CNN
+F 3 "~" H 11020 6345 50  0001 C CNN
+	1    11020 6345
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
