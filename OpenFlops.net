@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/OpenFlops/OpenFlops.sch)
-    (date "mer 21 ago 2019 22:15:46 CEST")
+    (date "mer 21 ago 2019 22:33:57 CEST")
     (tool "Eeschema 5.1.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U3)
       (value STM32F105RBT6)
-      (footprint Package_QFP:LQFP-64_10x10mm_P0.5mm)
+      (footprint OpenFlops:LQFP-64_Handsoldering)
       (datasheet http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf)
       (libsource (lib MCU_ST_STM32F1) (part STM32F105RBTx) (description "ARM Cortex-M3 MCU, 128KB flash, 64KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64"))
       (sheetpath (names /) (tstamps /))

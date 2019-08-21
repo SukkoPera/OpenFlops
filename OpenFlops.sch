@@ -20,7 +20,7 @@ U 1 1 5D3A085C
 P 2555 2900
 F 0 "U3" H 3100 4655 50  0000 C CNN
 F 1 "STM32F105RBT6" H 3125 1130 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1955 1200 50  0001 R CNN
+F 2 "OpenFlops:LQFP-64_Handsoldering" H 1955 1200 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf" H 2555 2900 50  0001 C CNN
 	1    2555 2900
 	1    0    0    -1  
