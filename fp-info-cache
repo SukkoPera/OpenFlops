@@ -1,4 +1,4 @@
-18608448019896626
+18595918924069626
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49749,68 +49749,12 @@ net tie
 4
 4
 OpenFlops
-Buzzer
-Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
-CONN DEV
-0
-4
-2
-OpenFlops
-LQFP-64_Handsoldering
-LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-LQFP QFP
-0
-64
-64
-OpenFlops
 MountingHole_M3_Pad
 Mounting Hole 3.2mm, M3
 mounting hole 3.2mm m3
 0
 1
 1
-OpenFlops
-PinHeader_1x02_P2.54mm_Mute
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-OpenFlops
-PinHeader_1x02_P2.54mm_Vertical
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-OpenFlops
-PinHeader_1x03_P2.54mm_Mute
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-3
-3
-OpenFlops
-PinHeader_1x04_P2.54mm_Vertical
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-OpenFlops
-PinHeader_1x05_P2.54mm_Vertical
-Through hole straight pin header, 1x05, 2.54mm pitch, single row
-Through hole pin header THT 1x05 2.54mm single row
-0
-5
-5
-OpenFlops
-PinHeader_2x05_P2.54mm_Vertical
-Through hole straight pin header, 2x05, 2.54mm pitch, double rows
-Through hole pin header THT 2x05 2.54mm double row
-0
-10
-10
 OpenFlops
 PUSH_BUTTON_RIGHT_ANGLE
 
