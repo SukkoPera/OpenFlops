@@ -44,7 +44,7 @@ Note that most components are necessary, but there are a few you can skip if you
 ### Configuration
 Please refer to the FlashFloppy wiki for the [initial setup](https://github.com/keirf/FlashFloppy/wiki/Initial-Setup) and an overview of the [available configuration options](https://github.com/keirf/FlashFloppy/wiki/FF.CFG-Configuration-File).
 
-Some options that you will want to override the default values of, in order to take advantage of all the features OpenFlops provides are the following:
+Some options that you will want to override the default values of, in order to take advantage of all the features OpenFlops provides, are the following:
 - `motor-delay`
 - `rotary`
 - `display-type`
