@@ -41,6 +41,14 @@ Note that most components are necessary, but there are a few you can skip if you
 - If you are not interested in the head movement sound, you can skip the following components: SPK1, D2, R5, R6, Q7.
 - If your LCD/OLED display already has pull-up resistors for the SDA/SCK lines (most do), you can skip R3 and R4.
 
+### Configuration
+Please refer to the FlashFloppy wiki for the [initial setup](https://github.com/keirf/FlashFloppy/wiki/Initial-Setup) and an overview of the [available configuration options](https://github.com/keirf/FlashFloppy/wiki/FF.CFG-Configuration-File).
+
+Some options that you will want to override the default values of, in order to take advantage of all the features OpenFlops provides are the following:
+- `motor-delay`
+- `rotary`
+- `display-type`
+
 ### License
 The OpenFlops documentation, including the design itself, is copyright &copy; SukkoPera 2019.
 
