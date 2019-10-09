@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 70)
-    (tracks 866)
+    (tracks 870)
     (zones 0)
     (modules 82)
     (nets 64)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title OpenFlops)
-    (date 2019-08-21)
+    (date 2019-10-09)
     (rev 1git)
     (company SukkoPera)
     (comment 1 "Licensed under CERN OHL v.1.2")
@@ -4373,6 +4373,10 @@
   (via (at 162.433 83.566) (size 0.8) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5D5E4684))
   (via (at 170.053 79.248) (size 0.8) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5D5E58C3))
   (via (at 166.243 80.01) (size 0.8) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5D5E5930))
+  (via (at 147.193 107.823) (size 0.8) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5D9F1726))
+  (via (at 147.955 102.997) (size 0.8) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5D9F177A))
+  (via (at 144.78 107.823) (size 0.8) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5D9F177D))
+  (via (at 170.18 93.726) (size 0.8) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5D9F1A60))
   (segment (start 153.915 69.351) (end 154.94 68.326) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 150.114 69.351) (end 153.915 69.351) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 160.302 76.482) (end 161.965 76.482) (width 0.2) (layer F.Cu) (net 2))
