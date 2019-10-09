@@ -1,4 +1,18 @@
-18595918924069626
+18594329117595164
+Amiga500SimpleIDE
+DIP-64_W22.86mm_Socket_LongPads_IC
+64-lead dip package, row spacing 22.86 mm (900 mils), Socket, LongPads
+DIL DIP PDIP 2.54mm 22.86mm 900mil Socket LongPads
+0
+64
+64
+Amiga500SimpleIDE
+DIP-64_W22.86mm_Socket_LongPads_Socket
+64-lead dip package, row spacing 22.86 mm (900 mils), Socket, LongPads
+DIL DIP PDIP 2.54mm 22.86mm 900mil Socket LongPads
+0
+64
+64
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49748,27 +49762,6 @@ net tie
 0
 4
 4
-OpenFlops
-MountingHole_M3_Pad
-Mounting Hole 3.2mm, M3
-mounting hole 3.2mm m3
-0
-1
-1
-OpenFlops
-PUSH_BUTTON_RIGHT_ANGLE
-
-
-0
-4
-2
-OpenFlops
-USB_A_FEMALE
-
-
-0
-6
-5
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800

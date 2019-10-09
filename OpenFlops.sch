@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenFlops"
-Date "2019-08-21"
+Date "2019-10-09"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 "Based on schematics by H.M."
@@ -803,9 +803,9 @@ Wire Wire Line
 	8935 4005 9840 4005
 Wire Wire Line
 	9050 4105 9840 4105
-Text Label 3820 4000 2    50   ~ 0
-disp_dio
 Text Label 3820 4100 2    50   ~ 0
+disp_dio
+Text Label 3820 4000 2    50   ~ 0
 disp_clk
 $Comp
 L Connector:USB_A P3
@@ -2216,28 +2216,6 @@ F 3 "" H 8630 5065 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8630 5065 8630 5150
-$Comp
-L Device:R R3
-U 1 1 5D8B343E
-P 8370 5150
-F 0 "R3" V 8325 5315 50  0000 C CNN
-F 1 "3.3K" V 8370 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8300 5150 50  0001 C CNN
-F 3 "~" H 8370 5150 50  0001 C CNN
-	1    8370 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5D8B4C4A
-P 8370 5250
-F 0 "R4" V 8420 5410 50  0000 C CNN
-F 1 "3.3K" V 8370 5250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8300 5250 50  0001 C CNN
-F 3 "~" H 8370 5250 50  0001 C CNN
-	1    8370 5250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7835 5150 8220 5150
 Wire Wire Line
@@ -2702,5 +2680,27 @@ F 2 "Symbol:OSHW-Logo2_9.8x8mm_Copper" H 11020 6345 50  0001 C CNN
 F 3 "~" H 11020 6345 50  0001 C CNN
 	1    11020 6345
 	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D8B343E
+P 8370 5150
+F 0 "R4" V 8325 5315 50  0000 C CNN
+F 1 "3.3K" V 8370 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8300 5150 50  0001 C CNN
+F 3 "~" H 8370 5150 50  0001 C CNN
+	1    8370 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D8B4C4A
+P 8370 5250
+F 0 "R3" V 8420 5410 50  0000 C CNN
+F 1 "3.3K" V 8370 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8300 5250 50  0001 C CNN
+F 3 "~" H 8370 5250 50  0001 C CNN
+	1    8370 5250
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
