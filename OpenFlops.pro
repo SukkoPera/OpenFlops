@@ -1,4 +1,4 @@
-update=dom 04 ago 2019 10:37:01 CEST
+update=mer 09 ott 2019 22:26:47 CEST
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -62,7 +72,7 @@ OthersTextItalic=0
 OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0.25
-SolderPasteClearance=0
+SolderPasteClearance=-7.599999999999999e-05
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
@@ -197,9 +207,9 @@ Enabled=0
 [pcbnew/Layer.F.Adhes]
 Enabled=0
 [pcbnew/Layer.B.Paste]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Paste]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.SilkS]
 Enabled=1
 [pcbnew/Layer.F.SilkS]
@@ -264,13 +274,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
