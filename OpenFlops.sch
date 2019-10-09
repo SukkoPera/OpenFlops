@@ -29,7 +29,6 @@ NoConn ~ 3255 1700
 NoConn ~ 3255 1800
 NoConn ~ 3255 1900
 NoConn ~ 3255 2600
-NoConn ~ 3255 3200
 NoConn ~ 1855 2800
 NoConn ~ 1855 3900
 NoConn ~ 1855 3000
@@ -2467,29 +2466,29 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 P9
 U 1 1 5D86073A
-P 4235 3670
-F 0 "P9" H 4153 3887 50  0000 C CNN
-F 1 "EXTERNAL_SPEAKER" H 4153 3796 50  0000 C CNN
-F 2 "OpenFlops:PinHeader_1x02_P2.54mm_Mute" H 4235 3670 50  0001 C CNN
-F 3 "~" H 4235 3670 50  0001 C CNN
-	1    4235 3670
+P 4235 3755
+F 0 "P9" H 4153 3972 50  0000 C CNN
+F 1 "EXTERNAL_SPEAKER" H 4153 3881 50  0000 C CNN
+F 2 "OpenFlops:PinHeader_1x02_P2.54mm_Mute" H 4235 3755 50  0001 C CNN
+F 3 "~" H 4235 3755 50  0001 C CNN
+	1    4235 3755
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4435 3670 4680 3670
+	4435 3755 4680 3755
 Wire Wire Line
-	4435 3770 4680 3770
+	4435 3855 4680 3855
 Wire Wire Line
 	4650 4435 4650 4395
 Wire Wire Line
 	4650 4435 4905 4435
 Text Label 4650 4435 0    50   ~ 0
 spk-
-Text Label 4680 3770 2    50   ~ 0
+Text Label 4680 3855 2    50   ~ 0
 spk-
 Text Label 4650 4060 0    50   ~ 0
 spk+
-Text Label 4680 3670 2    50   ~ 0
+Text Label 4680 3755 2    50   ~ 0
 spk+
 Text Label 7495 1050 0    50   ~ 0
 usb+r
@@ -2703,4 +2702,21 @@ F 3 "~" H 8370 5250 50  0001 C CNN
 	1    8370 5250
 	0    1    1    0   
 $EndComp
+Text Label 3820 3200 2    50   ~ 0
+boot1
+$Comp
+L power:GND #PWR?
+U 1 1 5E2952AE
+P 3950 3250
+F 0 "#PWR?" H 3950 3000 50  0001 C CNN
+F 1 "GND" H 3955 3077 50  0000 C CNN
+F 2 "" H 3950 3250 50  0001 C CNN
+F 3 "" H 3950 3250 50  0001 C CNN
+	1    3950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3200 3950 3250
+Wire Wire Line
+	3255 3200 3950 3200
 $EndSCHEMATC
