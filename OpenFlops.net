@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/OpenFlops/OpenFlops.sch)
-    (date "mer 09 ott 2019 21:42:34 CEST")
+    (date "mer 09 ott 2019 21:44:45 CEST")
     (tool "Eeschema 5.1.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -472,7 +472,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5DE4B3C5))
     (comp (ref R6)
-      (value 100)
+      (value 22)
       (footprint Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part R) (description Resistor))
