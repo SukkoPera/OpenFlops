@@ -621,7 +621,6 @@ Wire Wire Line
 Wire Wire Line
 	7505 3005 8230 3005
 NoConn ~ 7505 3205
-NoConn ~ 7505 3605
 Text Notes 7820 3105 0    50   ~ 0
 n/c
 Text Notes 7820 3205 0    50   ~ 0
@@ -2935,7 +2934,7 @@ U 1 1 5DAB2C99
 P 3930 3070
 F 0 "TP1" H 3988 3188 50  0000 L CNN
 F 1 "BOOT1" H 3988 3097 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4130 3070 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4130 3070 50  0001 C CNN
 F 3 "~" H 4130 3070 50  0001 C CNN
 	1    3930 3070
 	1    0    0    -1  
