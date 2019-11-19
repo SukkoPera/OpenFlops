@@ -26,14 +26,14 @@ OpenFlops is an Open Hardware implementation of such an emulator, inspired from 
 All of this comes in the same form factor (and mounting holes) as the board installed in the original Gotek, hence it can be easily installed in any shell or enclosure designed for it.
 
 ### Assembly and Installation
-Solder all components to the board. I suggest starting with the main microcontroller (U3), as it uses an LQFP package which is tricky to solder: the recommended technique is drag soldering, there are many videos about that on YouTube, so please look there for advice. I recommend to solder the bare minimum components needed for programming and then to try and flash it. This way you will be able to fix your soldering without too many components getting inbetween, if needed. You will need a USB/TTL Serial converter for this: one with 3.3V I/O level is recommended, but a 5V one can be used, too (most pins on STM32 microcontrollers are 5V-tolerant, so don't worry, it's not a bad hack!). You shouldn't pay more then 1-2€ for it in any case, anyway. So, when you are ready:
+Solder all components to the board. I suggest starting with the main microcontroller (U3), as it uses an LQFP package which is tricky to solder: the recommended technique is drag soldering, there are many videos about that on YouTube, so please look there for advice. I recommend to solder the bare minimum components needed for programming and then to try and flash it. This way you will be able to fix your soldering without too many components getting inbetween, if needed. You will need a USB/TTL Serial converter for this: one with 3.3V I/O level is recommended, but a 5V one can be used, too (most pins on STM32 microcontrollers are 5V-tolerant, so don't worry, it's not a bad hack!). You shouldn't pay more than 1-2€ for it in any case, anyway. So, when you are ready:
 
 - Solder U3, Y1, C3 and C5, then the programming header (the top one with power, BOOT0, TX, RX, etc.)
 - Check for shorts on the 3.3V power lines, you can easily do this on the pads for C6-C10
 - If your USB/Serial adapter has a 3.3V output, connect it to 3.3V on the power header, then connect ground, RX and TX
 - If no 3.3V output is available, solder U4 and power the board through the 5V pin on the power header
 
-Now you should be able to [program the STM32 microcontroller](https://github.com/keirf/FlashFloppy/wiki/Firmware-Programming). If you have difficultes you can try adding R10 (and C4) and maybe a few of C6-C10, but most likely the problem will be with the solder joints on U3, as soldering this kind of package manually is never easy, so please get a lens (or even better, a microscope) and double-check yout job.
+Now you should be able to [program the STM32 microcontroller](https://github.com/keirf/FlashFloppy/wiki/Firmware-Programming). If you have difficultes you can try adding R10 (and C4) and maybe a few of C6-C10, but most likely the problem will be with the solder joints on U3, as soldering this kind of package manually is never easy, so please get a lens (or even better, a microscope) and double-check your job.
 
 The serial adapter is only necessary for the first flashing. Subsequent updates [can be done easily via USB](https://github.com/keirf/FlashFloppy/wiki/Firmware-Update).
 
