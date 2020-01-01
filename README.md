@@ -52,7 +52,7 @@ Some options that you will want to override the default values of, in order to t
 ### Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/OpenFlops/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
 
-Every release is accompanied by its Bill Of Materials (BOM) file.
+Every release is accompanied by its Bill Of Materials (BOM) file and any relevant notes about it, which you are recommended to read carefully.
 
 ### License
 The OpenFlops documentation, including the design itself, is copyright &copy; SukkoPera 2019-2020.
