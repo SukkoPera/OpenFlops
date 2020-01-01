@@ -1,16 +1,16 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/OpenFlops/OpenFlops.sch)
-    (date "gio 10 ott 2019 00:38:30 CEST")
-    (tool "Eeschema 5.1.2")
+    (date "mer 1 gen 2020, 15:25:59")
+    (tool "Eeschema 5.1.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title OpenFlops)
         (company SukkoPera)
-        (rev 1git)
-        (date 2019-10-09)
+        (rev 1)
+        (date 2020-01-01)
         (source OpenFlops.sch)
-        (comment (number 1) (value "Based on schematics by H.M."))
+        (comment (number 1) (value "Based on schematics by H.M"))
         (comment (number 2) (value "Licensed under CERN OHL v.1.2"))
         (comment (number 3) (value ""))
         (comment (number 4) (value "")))))
@@ -267,7 +267,7 @@
         (field (name "JLCPCB PN") 74HCT04D)
         (field (name "MFG Name") NEXPERIA)
         (field (name "MFG Part Num") "GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part"))
-      (libsource (lib 74xx) (part 74HC04) (description "hex inverter"))
+      (libsource (lib 74xx) (part 74HC04) (description "Hex Inverter"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D94FA5F))
     (comp (ref RN1)
@@ -351,7 +351,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5DBB1ACD))
     (comp (ref D1)
-      (value "1N5819 (?)")
+      (value 1N4148)
       (footprint Diode_SMD:D_SOD-323_HandSoldering)
       (datasheet ~)
       (fields
@@ -471,7 +471,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5E1D9A31))
     (comp (ref Q1)
-      (value MOS_N_GSD)
+      (value BSS138)
       (footprint Package_TO_SOT_SMD:SOT-23_Handsoldering)
       (fields
         (field (name "JLCPCB PN") BSS138)
@@ -481,7 +481,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5ED88DA4))
     (comp (ref Q2)
-      (value MOS_N_GSD)
+      (value BSS138)
       (footprint Package_TO_SOT_SMD:SOT-23_Handsoldering)
       (fields
         (field (name "JLCPCB PN") BSS138)
@@ -491,7 +491,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5ED89DF7))
     (comp (ref Q3)
-      (value MOS_N_GSD)
+      (value BSS138)
       (footprint Package_TO_SOT_SMD:SOT-23_Handsoldering)
       (fields
         (field (name "JLCPCB PN") BSS138)
@@ -501,7 +501,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5ED8AA4F))
     (comp (ref Q6)
-      (value MOS_N_GSD)
+      (value BSS138)
       (footprint Package_TO_SOT_SMD:SOT-23_Handsoldering)
       (fields
         (field (name "JLCPCB PN") BSS138)
@@ -511,7 +511,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5ED8B5C1))
     (comp (ref Q5)
-      (value MOS_N_GSD)
+      (value BSS138)
       (footprint Package_TO_SOT_SMD:SOT-23_Handsoldering)
       (fields
         (field (name "JLCPCB PN") BSS138)
@@ -521,7 +521,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5ED8C6AD))
     (comp (ref Q4)
-      (value MOS_N_GSD)
+      (value BSS138)
       (footprint Package_TO_SOT_SMD:SOT-23_Handsoldering)
       (fields
         (field (name "JLCPCB PN") BSS138)
@@ -655,7 +655,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5E2368C4))
     (comp (ref D2)
-      (value "1N5819 (?)")
+      (value 1N4148)
       (footprint Diode_SMD:D_SOD-323_HandSoldering)
       (datasheet ~)
       (fields
@@ -730,7 +730,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5DC50D8B))
     (comp (ref P5)
-      (value JUMPERS)
+      (value JUMPER_JC)
       (footprint OpenFlops:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x02) (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"))
@@ -819,18 +819,21 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5DAB2C99)))
   (libparts
-    (libpart (lib 74xx) (part 74HCT04)
+    (libpart (lib 74xx) (part 74LS04)
       (aliases
-        (alias 74HC14)
         (alias 74HC04)
-        (alias 74LS14))
-      (description "hex inverter")
-      (docs https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf)
+        (alias 74HCT04)
+        (alias 74AHC04)
+        (alias 74AHCT04))
+      (description "Hex Inverter")
+      (docs http://www.ti.com/lit/gpn/sn74LS04)
       (footprints
-        (fp DIP*W7.62mm*))
+        (fp DIP*W7.62mm*)
+        (fp SSOP?14*)
+        (fp TSSOP?14*))
       (fields
         (field (name Reference) U)
-        (field (name Value) 74HCT04))
+        (field (name Value) 74LS04))
       (pins
         (pin (num 1) (name ~) (type input))
         (pin (num 2) (name ~) (type output))
@@ -888,7 +891,7 @@
       (description "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)")
       (docs ~)
       (footprints
-        (fp Connector*:*))
+        (fp Connector*:*_1x??_*))
       (fields
         (field (name Reference) J)
         (field (name Value) Conn_01x01))
@@ -1217,6 +1220,7 @@
     (libpart (lib Transistor_BJT) (part BC817)
       (aliases
         (alias BC818)
+        (alias BC846)
         (alias BC847)
         (alias BC848)
         (alias BC849)
