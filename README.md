@@ -1,7 +1,7 @@
 # OpenFlops
 OpenFlops is an Open Hardware Floppy Disk Drive emulator/simulator.
 
-![Board](https://raw.githubusercontent.com/SukkoPera/OpenFlops/master/doc/render-top.png)
+![Board](https://raw.githubusercontent.com/SukkoPera/OpenFlops/master/img/render-top.png)
 
 ### Summary
 From [Wikipedia](https://en.wikipedia.org/wiki/Floppy_disk_hardware_emulator):
