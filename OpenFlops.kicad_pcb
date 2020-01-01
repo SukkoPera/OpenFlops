@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.2)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5)
 
   (general
     (thickness 1.6)
@@ -12,8 +12,8 @@
   (page A4)
   (title_block
     (title OpenFlops)
-    (date 2019-10-09)
-    (rev 1git)
+    (date 2020-01-01)
+    (rev 1)
     (company SukkoPera)
     (comment 1 "Licensed under CERN OHL v.1.2")
   )
@@ -31,11 +31,11 @@
     (45 Margin user hide)
     (46 B.CrtYd user hide)
     (47 F.CrtYd user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (trace_clearance 0.25)
@@ -253,7 +253,7 @@
     (uvia_drill 0.1)
   )
 
-  (module OpenFlops:Buzzer (layer F.Cu) (tedit 5D9E4353) (tstamp 5D47238D)
+  (module OpenFlops:Buzzer (layer F.Cu) (tedit 5E0CA4DA) (tstamp 5D47238D)
     (at 125.476 114.046)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
     (tags "CONN DEV")
@@ -279,12 +279,12 @@
       (net 60 /spk-))
     (pad 1 smd rect (at 0 -1.75) (size 1.4 5) (layers F.Cu F.Mask)
       (net 61 /spk+))
-    (pad 2 thru_hole circle (at 6.5 0) (size 1.4 1.4) (drill 0.6) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 6.5 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 60 /spk-))
-    (pad 1 thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.6) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 61 /spk+))
-    (model ${KISYS3DMOD}/Buzzer_Beeper.3dshapes/Buzzer_12x9.5RM7.6.step
-      (offset (xyz 0 -1 0.5))
+    (model ${KISYS3DMOD}/Buzzer_Beeper.3dshapes/Buzzer_12x9.5RM7.6.wrl
+      (offset (xyz 0 -0.8 0.5))
       (scale (xyz 0.85 0.85 1))
       (rotate (xyz -90 0 0))
     )
@@ -3621,7 +3621,7 @@
     (fp_text reference P9 (at 0 -2.33 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value EXTERNAL_SPEAKER (at 0 4.87 90) (layer F.Fab)
+    (fp_text value EXTERNAL_SPEAKER (at 0 4.87 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.635 -1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
@@ -4384,7 +4384,7 @@
   (gr_text 3V3 (at 102.87 59.436) (layer F.SilkS) (tstamp 5D3FF64F)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
-  (gr_text V1B (at 148.082 113.538) (layer B.SilkS)
+  (gr_text V1 (at 148.082 113.538) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text github.com/SukkoPera/OpenFlops (at 122.682 100.457) (layer B.SilkS)

@@ -49,8 +49,11 @@ Some options that you will want to override the default values of, in order to t
 - `rotary`
 - `display-type`
 
+### Releases
+If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/OpenFlops/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
+
 ### License
-The OpenFlops documentation, including the design itself, is copyright &copy; SukkoPera 2019.
+The OpenFlops documentation, including the design itself, is copyright &copy; SukkoPera 2019-2020.
 
 OpenFlops is Open Hardware licensed under the [CERN OHL v. 1.2](http://ohwr.org/cernohl).
 
@@ -81,4 +84,8 @@ Again, if you want to use another manufacturer, feel free to, don't feel obligat
 If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
 
 ### Thanks
+- H.M for publishing the [doc/gotek_usb-fde_block-diagram.png](original Gotek schematics)
 - [keirf](https://github.com/keirf) for FlashFloppy
+- Brian Allan for suggesting some improvements for the Speaker circuit
+- Ray Bellis for suggesting adding pin headers for the USB port and speaker
+- Mario Babeu for suggesting to line up the orientation of LD1 and LD2

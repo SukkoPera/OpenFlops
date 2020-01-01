@@ -1,15 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:OpenFlops-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenFlops"
-Date "2019-10-09"
-Rev "1git"
+Date "2020-01-01"
+Rev "1"
 Comp "SukkoPera"
-Comment1 "Based on schematics by H.M."
+Comment1 "Based on schematics by H.M"
 Comment2 "Licensed under CERN OHL v.1.2"
 Comment3 ""
 Comment4 ""
