@@ -1,5 +1,5 @@
 *.bak
-*.kicad_pcb-bak
+*.*-bak
 *.bck
-*.sch-bak
 gerbers/
+RELEASES/
