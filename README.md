@@ -91,3 +91,5 @@ If you need help or have questions, you can join [the official Telegram group](h
 - Brian Allan for suggesting some improvements for the Speaker circuit
 - Ray Bellis for suggesting adding pin headers for the USB port and speaker
 - Mario Babeu for suggesting to line up the orientation of LD1 and LD2
+- Patrick Kerkhof for sending me a lot of original Gotek housing for dimensional testing
+
