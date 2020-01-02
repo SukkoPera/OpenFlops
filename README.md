@@ -86,7 +86,7 @@ Again, if you want to use another manufacturer, feel free to, don't feel obligat
 If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
 
 ### Thanks
-- H.M for publishing the [doc/gotek_usb-fde_block-diagram.png](original Gotek schematics)
+- H.M for publishing the [original Gotek schematics](doc/gotek_usb-fde_block-diagram.png)
 - [keirf](https://github.com/keirf) for FlashFloppy
 - Brian Allan for suggesting some improvements for the Speaker circuit
 - Ray Bellis for suggesting adding pin headers for the USB port and speaker
