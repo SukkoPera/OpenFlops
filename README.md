@@ -26,7 +26,7 @@ OpenFlops is an Open Hardware implementation of such an emulator, inspired from 
 All of this comes in the same form factor (and mounting holes) as the board installed in the original Gotek, hence it can be easily installed in any shell or enclosure designed for it.
 
 ### Assembly and Installation
-Solder all components to the board. I suggest starting with the main microcontroller (U3), as it uses an LQFP package which is tricky to solder: the recommended technique is drag soldering, there are many videos about that on YouTube, so please look there for advice. I recommend to solder the bare minimum components needed for programming and then to try and flash it. This way you will be able to fix your soldering without too many components getting inbetween, if needed. You will need a USB/TTL Serial converter for this: one with 3.3V I/O level is recommended, but a 5V one can be used, too (most pins on STM32 microcontrollers are 5V-tolerant, so don't worry, it's not a bad hack!). You shouldn't pay more than 1-2€ for it in any case, anyway. So, when you are ready:
+Solder all components to the board. I suggest starting with the main microcontroller (U3), as it uses an LQFP package which is tricky to solder: the recommended technique is drag soldering, there are many videos about that on YouTube, so please look there for advice. I recommend soldering the bare minimum components needed for programming and then trying to flash it right away. This way you will be able to fix your soldering without too many components getting in the way, if needed. You will need a USB/TTL Serial converter for this: one with 3.3V I/O level is recommended, but a 5V one can be used, too (most pins on STM32 microcontrollers are 5V-tolerant, so don't worry, it's not a bad hack!). You shouldn't pay more than 1-2€ for it in any case, anyway. So, when you are ready:
 
 - Solder U3, Y1, C3 and C5, then the programming header (the top one with power, BOOT0, TX, RX, etc.)
 - Check for shorts on the 3.3V power lines, you can easily do this on the pads for C6-C10
@@ -86,7 +86,7 @@ Again, if you want to use another manufacturer, feel free to, don't feel obligat
 If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
 
 ### Thanks
-- H.M for publishing the [original Gotek schematics](doc/gotek_usb-fde_block-diagram.png)
+- H.M for publishing the [original Gotek schematics](doc/gotek_usb-fde_block-diagram.jpg)
 - [keirf](https://github.com/keirf) for FlashFloppy
 - Brian Allan for suggesting some improvements for the Speaker circuit
 - Ray Bellis for suggesting adding pin headers for the USB port and speaker
