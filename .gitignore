@@ -3,3 +3,4 @@
 *.bck
 gerbers/
 RELEASES/
+fp-info-cache

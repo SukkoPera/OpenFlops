@@ -64,8 +64,8 @@
       35,
       36
     ],
-    "visible_layers": "002f0fc_80000001",
-    "zone_display_mode": 1
+    "visible_layers": "00010fc_80000001",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "OpenFlops.kicad_prl",
