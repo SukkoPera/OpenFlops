@@ -22779,7 +22779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
 			(at 138.303 56.388 0)
 			(effects
 				(font
@@ -22797,7 +22797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Panasonic EEEFT1H100AR"
 			(at 138.303 56.388 0)
 			(effects
 				(font
@@ -22848,7 +22848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
 			(at 170.18 56.388 0)
 			(effects
 				(font
@@ -22866,7 +22866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Panasonic EEEFT1H100AR"
 			(at 170.18 56.388 0)
 			(effects
 				(font
@@ -24475,7 +24475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
 			(at 114.808 55.753 0)
 			(effects
 				(font
@@ -24493,7 +24493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Panasonic EEEFT1C101AR"
 			(at 114.808 55.753 0)
 			(effects
 				(font
