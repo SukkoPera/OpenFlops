@@ -60,7 +60,11 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|199771000|63754000|c598ce3f-c2f5-4c97-884c-6bf85259fd4b|a620b7b0-5123-4781-9460-7c4737a1b831"
+        "clearance|199771000|63754000|c598ce3f-c2f5-4c97-884c-6bf85259fd4b|a620b7b0-5123-4781-9460-7c4737a1b831",
+        "copper_edge_clearance|124776000|114796000|085e8f0a-209a-4832-9788-dbb13ba6be94|922352be-cc91-40e5-b17e-e7f5bbfe5bf8",
+        "copper_edge_clearance|131276000|114796000|085e8f0a-209a-4832-9788-dbb13ba6be94|f96e087d-a613-42ec-970b-0c42415835d2",
+        "holes_co_located|199771000|63754000|c598ce3f-c2f5-4c97-884c-6bf85259fd4b|a620b7b0-5123-4781-9460-7c4737a1b831",
+        "solder_mask_bridge|199771000|63754000|c598ce3f-c2f5-4c97-884c-6bf85259fd4b|a620b7b0-5123-4781-9460-7c4737a1b831"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -100,9 +104,9 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -249,7 +253,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|304800|1828800|075efdbf-f1e7-4a8d-b81a-54120c302c3a|70cc2991-f5c3-44fd-a37e-04e544fef7ad|/849cb7fe-5975-4971-bdb0-f39bfa3bf7be|/849cb7fe-5975-4971-bdb0-f39bfa3bf7be|/849cb7fe-5975-4971-bdb0-f39bfa3bf7be",
+      "pin_to_pin|304800|1828800|075efdbf-f1e7-4a8d-b81a-54120c302c3a|e73bbfbb-b848-4987-87bc-0b22bb067c80|/849cb7fe-5975-4971-bdb0-f39bfa3bf7be|/849cb7fe-5975-4971-bdb0-f39bfa3bf7be|/849cb7fe-5975-4971-bdb0-f39bfa3bf7be",
+      "pin_to_pin|304800|1828800|075efdbf-f1e7-4a8d-b81a-54120c302c3a|ea1913a9-0072-4594-be8c-5ef619175e6e|/849cb7fe-5975-4971-bdb0-f39bfa3bf7be|/849cb7fe-5975-4971-bdb0-f39bfa3bf7be|/849cb7fe-5975-4971-bdb0-f39bfa3bf7be"
+    ],
     "meta": {
       "version": 0
     },
@@ -608,41 +616,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB PN",
-          "name": "JLCPCB PN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MFG Name",
-          "name": "MFG Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MFG Part Num",
-          "name": "MFG Part Num",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
