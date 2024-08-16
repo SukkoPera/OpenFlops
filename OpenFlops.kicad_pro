@@ -59,13 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|199771000|63754000|c598ce3f-c2f5-4c97-884c-6bf85259fd4b|a620b7b0-5123-4781-9460-7c4737a1b831",
-        "copper_edge_clearance|124776000|114796000|085e8f0a-209a-4832-9788-dbb13ba6be94|922352be-cc91-40e5-b17e-e7f5bbfe5bf8",
-        "copper_edge_clearance|131276000|114796000|085e8f0a-209a-4832-9788-dbb13ba6be94|f96e087d-a613-42ec-970b-0c42415835d2",
-        "holes_co_located|199771000|63754000|c598ce3f-c2f5-4c97-884c-6bf85259fd4b|a620b7b0-5123-4781-9460-7c4737a1b831",
-        "solder_mask_bridge|199771000|63754000|c598ce3f-c2f5-4c97-884c-6bf85259fd4b|a620b7b0-5123-4781-9460-7c4737a1b831"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
