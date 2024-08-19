@@ -636,13 +636,13 @@
           "group_by": false,
           "label": "MFG Name",
           "name": "MFG Name",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MFG Part Num",
           "name": "MFG Part Num",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -660,7 +660,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",

@@ -13456,7 +13456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
+		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
 			(at 13.97 59.69 0)
 			(effects
 				(font
@@ -13475,6 +13475,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 13.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "YXC Crystal Oscillators"
+			(at 13.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "X49SM8MSD2SC"
+			(at 13.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C12674"
 			(at 13.97 59.69 0)
 			(effects
 				(font
@@ -13550,7 +13577,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CL21C220JBANNNC"
+		(property "JLCPCB PN" "C1804"
 			(at 2.54 55.88 0)
 			(effects
 				(font
@@ -13559,7 +13586,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "SAMSUNG ELECTRO-MECHANICS"
+		(property "MFG Name" "Samsung Electro-Mechanics"
 			(at 2.54 55.88 0)
 			(effects
 				(font
@@ -13568,7 +13595,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 22PF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CL21C220JBANNNC"
 			(at 2.54 55.88 0)
 			(effects
 				(font
@@ -13644,7 +13671,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CL21C220JBANNNC"
+		(property "JLCPCB PN" "C1804"
 			(at 2.54 63.5 0)
 			(effects
 				(font
@@ -13653,7 +13680,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "SAMSUNG ELECTRO-MECHANICS"
+		(property "MFG Name" "Samsung Electro-Mechanics"
 			(at 2.54 63.5 0)
 			(effects
 				(font
@@ -13662,7 +13689,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 22PF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CL21C220JBANNNC"
 			(at 2.54 63.5 0)
 			(effects
 				(font
@@ -14099,7 +14126,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 208.534 74.93 0)
 			(effects
 				(font
@@ -14108,7 +14135,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 208.534 74.93 0)
 			(effects
 				(font
@@ -14117,7 +14144,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 208.534 74.93 0)
 			(effects
 				(font
@@ -14195,7 +14222,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 209.423 74.93 0)
 			(effects
 				(font
@@ -14204,7 +14231,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 209.423 74.93 0)
 			(effects
 				(font
@@ -14213,7 +14240,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 209.423 74.93 0)
 			(effects
 				(font
@@ -14291,7 +14318,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 209.042 74.93 0)
 			(effects
 				(font
@@ -14300,7 +14327,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 209.042 74.93 0)
 			(effects
 				(font
@@ -14309,7 +14336,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 209.042 74.93 0)
 			(effects
 				(font
@@ -14387,7 +14414,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 208.661 74.93 0)
 			(effects
 				(font
@@ -14396,7 +14423,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 208.661 74.93 0)
 			(effects
 				(font
@@ -14405,7 +14432,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 208.661 74.93 0)
 			(effects
 				(font
@@ -14483,7 +14510,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -14492,7 +14519,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -14501,7 +14528,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 218.44 67.31 0)
 			(effects
 				(font
@@ -14579,7 +14606,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 209.169 74.93 0)
 			(effects
 				(font
@@ -14588,7 +14615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 209.169 74.93 0)
 			(effects
 				(font
@@ -14597,7 +14624,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 209.169 74.93 0)
 			(effects
 				(font
@@ -14675,7 +14702,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 208.915 59.69 0)
 			(effects
 				(font
@@ -14684,7 +14711,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 208.915 59.69 0)
 			(effects
 				(font
@@ -14693,7 +14720,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 208.915 59.69 0)
 			(effects
 				(font
@@ -14771,7 +14798,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 208.534 59.69 0)
 			(effects
 				(font
@@ -14780,7 +14807,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 208.534 59.69 0)
 			(effects
 				(font
@@ -14789,7 +14816,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 208.534 59.69 0)
 			(effects
 				(font
@@ -14867,7 +14894,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 209.423 59.69 0)
 			(effects
 				(font
@@ -14876,7 +14903,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 209.423 59.69 0)
 			(effects
 				(font
@@ -14885,7 +14912,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 209.423 59.69 0)
 			(effects
 				(font
@@ -14963,7 +14990,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 209.042 59.69 0)
 			(effects
 				(font
@@ -14972,7 +14999,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 209.042 59.69 0)
 			(effects
 				(font
@@ -14981,7 +15008,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 209.042 59.69 0)
 			(effects
 				(font
@@ -15059,7 +15086,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 208.661 59.69 0)
 			(effects
 				(font
@@ -15068,7 +15095,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 208.661 59.69 0)
 			(effects
 				(font
@@ -15077,7 +15104,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 208.661 59.69 0)
 			(effects
 				(font
@@ -15155,7 +15182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 209.55 59.69 0)
 			(effects
 				(font
@@ -15164,7 +15191,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 209.55 59.69 0)
 			(effects
 				(font
@@ -15173,7 +15200,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 209.55 59.69 0)
 			(effects
 				(font
@@ -16329,6 +16356,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" "C17513"
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "UNI-ROYAL"
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "0805W8F1001T5E"
+			(at 120.65 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24c115b7-e14e-4887-bb9c-f6941a764668")
 		)
@@ -16398,7 +16452,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F4701T5E"
+		(property "JLCPCB PN" "C17673"
 			(at 33.02 26.67 0)
 			(effects
 				(font
@@ -16407,7 +16461,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 33.02 26.67 0)
 			(effects
 				(font
@@ -16416,7 +16470,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/8W 0805 ROHS"
+		(property "MFG Part Num" "0805W8F4701T5E"
 			(at 33.02 26.67 0)
 			(effects
 				(font
@@ -16494,7 +16548,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CC0805KRX7R9BB104"
+		(property "JLCPCB PN" "C49678"
 			(at 33.02 39.37 0)
 			(effects
 				(font
@@ -16512,7 +16566,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CC0805KRX7R9BB104"
 			(at 33.02 39.37 0)
 			(effects
 				(font
@@ -16720,7 +16774,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CC0805KRX7R9BB104"
+		(property "JLCPCB PN" "C49678"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -16738,7 +16792,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CC0805KRX7R9BB104"
 			(at 175.26 87.63 0)
 			(effects
 				(font
@@ -17162,7 +17216,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 209.296 59.69 0)
 			(effects
 				(font
@@ -17171,7 +17225,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 209.296 59.69 0)
 			(effects
 				(font
@@ -17180,7 +17234,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 209.296 59.69 0)
 			(effects
 				(font
@@ -17583,7 +17637,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F220JT5E"
+		(property "JLCPCB PN" "C17561"
 			(at 186.69 26.67 0)
 			(effects
 				(font
@@ -17592,7 +17646,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 186.69 26.67 0)
 			(effects
 				(font
@@ -17601,7 +17655,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 22OHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F220JT5E"
 			(at 186.69 26.67 0)
 			(effects
 				(font
@@ -17677,7 +17731,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 186.69 29.21 0)
 			(effects
 				(font
@@ -17686,7 +17740,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F220JT5E"
+		(property "JLCPCB PN" "C17561"
 			(at 186.69 29.21 0)
 			(effects
 				(font
@@ -17695,7 +17749,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 22OHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F220JT5E"
 			(at 186.69 29.21 0)
 			(effects
 				(font
@@ -17839,6 +17893,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" "C26010"
+			(at 212.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "UNI-ROYAL"
+			(at 212.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "0805W8F3301T5E"
+			(at 212.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c5e0099-9c39-48fb-a40d-e12af4e551d5")
 		)
@@ -17898,6 +17979,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C26010"
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "UNI-ROYAL"
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "0805W8F3301T5E"
 			(at 212.09 133.35 0)
 			(effects
 				(font
@@ -18038,7 +18146,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "74HCT04D"
+		(property "JLCPCB PN" "C5590"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -18047,7 +18155,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "NEXPERIA"
+		(property "MFG Name" "Nexperia"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -18056,7 +18164,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part"
+		(property "MFG Part Num" "74HC04D,653"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -18168,7 +18276,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "74HCT04D"
+		(property "JLCPCB PN" "C5590"
 			(at 54.61 163.83 0)
 			(effects
 				(font
@@ -18177,7 +18285,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "NEXPERIA"
+		(property "MFG Name" "Nexperia"
 			(at 54.61 163.83 0)
 			(effects
 				(font
@@ -18186,7 +18294,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part"
+		(property "MFG Part Num" "74HC04D,653"
 			(at 54.61 163.83 0)
 			(effects
 				(font
@@ -18298,7 +18406,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "74HCT04D"
+		(property "JLCPCB PN" "C5590"
 			(at 54.61 185.42 0)
 			(effects
 				(font
@@ -18307,7 +18415,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "NEXPERIA"
+		(property "MFG Name" "Nexperia"
 			(at 54.61 185.42 0)
 			(effects
 				(font
@@ -18316,7 +18424,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part"
+		(property "MFG Part Num" "74HC04D,653"
 			(at 54.61 185.42 0)
 			(effects
 				(font
@@ -18428,7 +18536,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "74HCT04D"
+		(property "JLCPCB PN" "C5590"
 			(at 123.19 142.24 0)
 			(effects
 				(font
@@ -18437,7 +18545,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "NEXPERIA"
+		(property "MFG Name" "Nexperia"
 			(at 123.19 142.24 0)
 			(effects
 				(font
@@ -18446,7 +18554,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part"
+		(property "MFG Part Num" "74HC04D,653"
 			(at 123.19 142.24 0)
 			(effects
 				(font
@@ -18558,7 +18666,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "74HCT04D"
+		(property "JLCPCB PN" "C5590"
 			(at 123.19 163.83 0)
 			(effects
 				(font
@@ -18567,7 +18675,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "NEXPERIA"
+		(property "MFG Name" "Nexperia"
 			(at 123.19 163.83 0)
 			(effects
 				(font
@@ -18576,7 +18684,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part"
+		(property "MFG Part Num" "74HC04D,653"
 			(at 123.19 163.83 0)
 			(effects
 				(font
@@ -18688,7 +18796,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "74HCT04D"
+		(property "JLCPCB PN" "C5590"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -18697,7 +18805,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "NEXPERIA"
+		(property "MFG Name" "Nexperia"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -18706,7 +18814,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part"
+		(property "MFG Part Num" "74HC04D,653"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -18820,7 +18928,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "74HCT04D"
+		(property "JLCPCB PN" "C5590"
 			(at 20.32 149.86 0)
 			(effects
 				(font
@@ -18829,7 +18937,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "NEXPERIA"
+		(property "MFG Name" "Nexperia"
 			(at 20.32 149.86 0)
 			(effects
 				(font
@@ -18838,7 +18946,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "GATES AND INVERTERS SOIC-14_150MIL ROHS Extended Part"
+		(property "MFG Part Num" "74HC04D,653"
 			(at 20.32 149.86 0)
 			(effects
 				(font
@@ -18950,7 +19058,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at -13.589 282.448 0)
 			(effects
 				(font
@@ -18959,7 +19067,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at -13.589 282.448 0)
 			(effects
 				(font
@@ -18968,7 +19076,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at -13.589 282.448 0)
 			(effects
 				(font
@@ -19178,6 +19286,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" "C17513"
+			(at 118.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "UNI-ROYAL"
+			(at 118.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "0805W8F1001T5E"
+			(at 118.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fb4a79e-3768-451e-87de-f202dbcc3651")
 		)
@@ -19247,7 +19382,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F4701T5E"
+		(property "JLCPCB PN" "C17673"
 			(at 105.41 81.28 0)
 			(effects
 				(font
@@ -19256,7 +19391,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 105.41 81.28 0)
 			(effects
 				(font
@@ -19265,7 +19400,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/8W 0805 ROHS"
+		(property "MFG Part Num" "0805W8F4701T5E"
 			(at 105.41 81.28 0)
 			(effects
 				(font
@@ -19483,7 +19618,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at -35.179 304.038 0)
 			(effects
 				(font
@@ -19492,7 +19627,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at -35.179 304.038 0)
 			(effects
 				(font
@@ -19501,7 +19636,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at -35.179 304.038 0)
 			(effects
 				(font
@@ -19642,7 +19777,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at -56.769 325.628 0)
 			(effects
 				(font
@@ -19651,7 +19786,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at -56.769 325.628 0)
 			(effects
 				(font
@@ -19660,7 +19795,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at -56.769 325.628 0)
 			(effects
 				(font
@@ -19939,7 +20074,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 53.721 214.884 0)
 			(effects
 				(font
@@ -19948,7 +20083,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 53.721 214.884 0)
 			(effects
 				(font
@@ -19957,7 +20092,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 53.721 214.884 0)
 			(effects
 				(font
@@ -20098,7 +20233,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 32.131 236.474 0)
 			(effects
 				(font
@@ -20107,7 +20242,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 32.131 236.474 0)
 			(effects
 				(font
@@ -20116,7 +20251,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 32.131 236.474 0)
 			(effects
 				(font
@@ -20257,7 +20392,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 10.541 258.064 0)
 			(effects
 				(font
@@ -20266,7 +20401,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at 10.541 258.064 0)
 			(effects
 				(font
@@ -20275,7 +20410,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at 10.541 258.064 0)
 			(effects
 				(font
@@ -20769,7 +20904,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at -11.176 60.325 0)
 			(effects
 				(font
@@ -20778,7 +20913,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at -11.176 60.325 0)
 			(effects
 				(font
@@ -20787,7 +20922,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at -11.176 60.325 0)
 			(effects
 				(font
@@ -20854,7 +20989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 137.16 170.18 0)
 			(effects
 				(font
@@ -20863,7 +20998,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "1N4148WS"
+		(property "JLCPCB PN" "C2128"
 			(at 137.16 170.18 0)
 			(effects
 				(font
@@ -20872,7 +21007,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "CHANGJIANG ELECTRONICS TECH (CJ)"
+		(property "MFG Name" "Jiangsu Changjing Electronics Technology Co., Ltd."
 			(at 137.16 170.18 0)
 			(effects
 				(font
@@ -20881,7 +21016,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "SWITCHING DIODE 100V 150MA 1.25V @ 150MA 4NS SOD-323 ROHS Basic Part"
+		(property "MFG Part Num" "1N4148WS"
 			(at 137.16 170.18 0)
 			(effects
 				(font
@@ -20977,7 +21112,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at -3.429 60.325 0)
 			(effects
 				(font
@@ -20986,7 +21121,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 1KOHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F1001T5E"
 			(at -3.429 60.325 0)
 			(effects
 				(font
@@ -20995,7 +21130,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F1001T5E"
+		(property "JLCPCB PN" "C17513"
 			(at -3.429 60.325 0)
 			(effects
 				(font
@@ -21073,7 +21208,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CC0805KRX7R9BB104"
+		(property "JLCPCB PN" "C49678"
 			(at 33.02 149.86 0)
 			(effects
 				(font
@@ -21091,7 +21226,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CC0805KRX7R9BB104"
 			(at 33.02 149.86 0)
 			(effects
 				(font
@@ -21431,6 +21566,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" "C17513"
+			(at 123.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "UNI-ROYAL"
+			(at 123.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "0805W8F1001T5E"
+			(at 123.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6c75a0d-ce34-49ee-8f2f-fc0033ab04d5")
 		)
@@ -21695,7 +21857,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CC0805KRX7R9BB104"
+		(property "JLCPCB PN" "C49678"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -21713,7 +21875,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CC0805KRX7R9BB104"
 			(at 128.27 55.88 0)
 			(effects
 				(font
@@ -21791,7 +21953,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CC0805KRX7R9BB104"
+		(property "JLCPCB PN" "C49678"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -21809,7 +21971,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CC0805KRX7R9BB104"
 			(at 160.02 55.88 0)
 			(effects
 				(font
@@ -21952,7 +22114,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CC0805KRX7R9BB104"
+		(property "JLCPCB PN" "C49678"
 			(at 133.35 87.63 0)
 			(effects
 				(font
@@ -21970,7 +22132,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CC0805KRX7R9BB104"
 			(at 133.35 87.63 0)
 			(effects
 				(font
@@ -22048,7 +22210,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CC0805KRX7R9BB104"
+		(property "JLCPCB PN" "C49678"
 			(at 143.51 87.63 0)
 			(effects
 				(font
@@ -22066,7 +22228,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CC0805KRX7R9BB104"
 			(at 143.51 87.63 0)
 			(effects
 				(font
@@ -22144,7 +22306,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CC0805KRX7R9BB104"
+		(property "JLCPCB PN" "C49678"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -22162,7 +22324,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CC0805KRX7R9BB104"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -22240,7 +22402,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "CC0805KRX7R9BB104"
+		(property "JLCPCB PN" "C49678"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -22258,7 +22420,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0805 ROHS Basic Part"
+		(property "MFG Part Num" "CC0805KRX7R9BB104"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -22336,7 +22498,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F220JT5E"
+		(property "JLCPCB PN" "C17561"
 			(at 133.35 106.68 0)
 			(effects
 				(font
@@ -22345,7 +22507,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 133.35 106.68 0)
 			(effects
 				(font
@@ -22354,7 +22516,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 22OHMS ±1% 1/8W 0805 ROHS Basic Part"
+		(property "MFG Part Num" "0805W8F220JT5E"
 			(at 133.35 106.68 0)
 			(effects
 				(font
@@ -22554,7 +22716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" ""
 			(at 127 115.57 0)
 			(effects
 				(font
@@ -22563,7 +22725,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "1N4148WS"
+		(property "JLCPCB PN" "C2128"
 			(at 127 115.57 0)
 			(effects
 				(font
@@ -22572,7 +22734,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "CHANGJIANG ELECTRONICS TECH (CJ)"
+		(property "MFG Name" "Jiangsu Changjing Electronics Technology Co., Ltd."
 			(at 127 115.57 0)
 			(effects
 				(font
@@ -22581,7 +22743,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "SWITCHING DIODE 100V 150MA 1.25V @ 150MA 4NS SOD-323 ROHS Basic Part"
+		(property "MFG Part Num" "1N4148WS"
 			(at 127 115.57 0)
 			(effects
 				(font
@@ -22680,7 +22842,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "MMBT3904"
+		(property "JLCPCB PN" "C20526"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -22689,7 +22851,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "CHANGJIANG ELECTRONICS TECH (CJ)"
+		(property "MFG Name" "Jiangsu Changjing Electronics Technology Co., Ltd"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -22698,7 +22860,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "TRANSISTORS (NPN/PNP) NPN 200MA 40V SOT-23(SOT-23-3) ROHS Basic Part"
+		(property "MFG Part Num" "MMBT3904(RANGE:100-300)"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -22779,7 +22941,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB PN" "0805W8F4701T5E"
+		(property "JLCPCB PN" "C17673"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -22788,7 +22950,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Name" "UNIROYAL ELEC"
+		(property "MFG Name" "UNI-ROYAL"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -22797,7 +22959,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG Part Num" "CHIP RESISTOR - SURFACE MOUNT 4.7KOHMS ±1% 1/8W 0805 ROHS"
+		(property "MFG Part Num" "0805W8F4701T5E"
 			(at 38.1 43.18 0)
 			(effects
 				(font
@@ -23406,6 +23568,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" "C7420339"
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "hongjiacheng"
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "BSS138"
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5382738b-8e7a-4243-a1da-92055dbd81a5")
 		)
@@ -23557,6 +23746,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" "C6186"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "Advanced Monolithic Systems"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "AMS1117-3.3"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "14dc4af8-2a59-446f-a426-941c33bc4808")
 		)
@@ -23633,6 +23849,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" "C7420339"
+			(at 147.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "hongjiacheng"
+			(at 147.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "BSS138"
+			(at 147.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1942ee8b-cdd8-440c-b0b5-53814780a17f")
 		)
@@ -23698,7 +23941,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Alternative: Panasonic EEEFT1H100AR"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "Nichicon"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "UCD1H100MCL6GS"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C445463"
 			(at 170.18 55.88 0)
 			(effects
 				(font
@@ -23772,6 +24042,33 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 80.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C7420339"
+			(at 80.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "hongjiacheng"
+			(at 80.01 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "BSS138"
 			(at 80.01 185.42 0)
 			(effects
 				(font
@@ -24203,6 +24500,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" "C7420339"
+			(at 80.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "hongjiacheng"
+			(at 80.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "BSS138"
+			(at 80.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33a5cf2d-2425-48eb-bb45-140e074584b9")
 		)
@@ -24401,6 +24725,33 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 128KB flash, 64KB RAM, 72 MHz, 2.0-3.6V, 51 GPIO, LQFP64"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C3029577"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "ARTERY"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "AT32F435RGT7"
 			(at 64.77 76.2 0)
 			(effects
 				(font
@@ -24668,6 +25019,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" "C7420339"
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "hongjiacheng"
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "BSS138"
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bcf417c0-5e38-4bf3-836b-d4a8a1202e7d")
 		)
@@ -24736,6 +25114,33 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 147.32 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C7420339"
+			(at 147.32 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "hongjiacheng"
+			(at 147.32 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "BSS138"
 			(at 147.32 185.42 0)
 			(effects
 				(font
@@ -24939,7 +25344,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Alternative: Panasonic EEEFT1C101AR"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "Nichicon"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "UCD0J101MCL6GS"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C445483"
 			(at 114.3 55.88 0)
 			(effects
 				(font
@@ -25009,7 +25441,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, US symbol"
+		(property "Description" "Alternative: Panasonic EEEFT1H100AR"
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Name" "Nichicon"
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG Part Num" "UCD1H100MCL6GS"
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C445463"
 			(at 138.43 55.88 0)
 			(effects
 				(font
@@ -25077,7 +25536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 135.89 25.4 0)
 			(effects
 				(font
