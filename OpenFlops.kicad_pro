@@ -558,7 +558,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "OpenFlops.net",
-      "plot": "",
+      "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
