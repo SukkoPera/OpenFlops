@@ -23623,7 +23623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "OpenFlops:SOT-23_Handsolder"
 			(at 135.89 127.635 0)
 			(effects
 				(font
@@ -24279,7 +24279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "OpenFlops:SOT-23_Handsolder"
 			(at 152.4 144.145 0)
 			(effects
 				(font
@@ -24568,7 +24568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "OpenFlops:SOT-23_Handsolder"
 			(at 152.4 165.735 0)
 			(effects
 				(font
@@ -24769,7 +24769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "OpenFlops:SOT-23_Handsolder"
 			(at 85.09 187.325 0)
 			(effects
 				(font
@@ -24952,7 +24952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "OpenFlops:SOT-23_Handsolder"
 			(at 20.32 117.475 0)
 			(effects
 				(font
@@ -25386,7 +25386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "OpenFlops:SOT-23_Handsolder"
 			(at 85.09 144.145 0)
 			(effects
 				(font
@@ -25905,7 +25905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "OpenFlops:SOT-23_Handsolder"
 			(at 85.09 165.735 0)
 			(effects
 				(font
@@ -26008,7 +26008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "OpenFlops:SOT-23_Handsolder"
 			(at 152.4 187.325 0)
 			(effects
 				(font
