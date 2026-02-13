@@ -82,9 +82,6 @@ Again, if you want to use another manufacturer, feel free to, don't feel obligat
 
 <a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
-### Get Help
-If you need help or have questions, you can join [the official Telegram group](https://t.me/joinchat/HUHdWBC9J9JnYIrvTYfZmg).
-
 ### Thanks
 - H.M for publishing the [original Gotek schematics](doc/gotek_usb-fde_block-diagram.jpg)
 - [keirf](https://github.com/keirf) for FlashFloppy
